@@ -1,6 +1,6 @@
 <H3><a href="http://atlas.incubator.apache.org/">Apache Atlas</a></H3>
 
-<br><b>To run within <a href="http://hortonworks.com/downloads/#sandbox">Hortonworks Sandbox</a></b>
+<br><b>To run within <a href="http://hortonworks.com/downloads/#sandbox">Hortonworks Sandbox</a>:</b>
 <br>&ensp;&ensp;1.) Increase VM to 10.5 GB of RAM
 <br>&ensp;&ensp;2.) Stop Flume, Oozie, Zeppelin
 <br>&ensp;&ensp;3.) Within Hive, set ```atlas.hook.hive.synchronous = true```
