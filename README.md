@@ -13,3 +13,4 @@
 <br><a href="http://atlas.incubator.apache.org/">Apache Atlas</a>
 <br><a href="http://hortonworks.com/apache/atlas/">Apache Atlas - Hortonworks Overview</a>
 <br><a href="https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.5.0/bk_data-governance/content/ch_hdp_data_governance_overview.html">Apache Atlas - Hortonworks Documentation</a>
+<br><a href="https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.5.0/bk_data-governance/content/ch_appendix_atlas_rest_api.html">Atlas REST APIs</a>
