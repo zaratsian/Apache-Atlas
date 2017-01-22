@@ -5,11 +5,14 @@ import re
 import json
 
 
-def get_atlas_status(atlas_host, atlas_port, atlas_user, atlas_pw):
+def atlas_get_status(atlas_host, atlas_port, atlas_user, atlas_pw):
     url  = 'http://' + str(atlas_host) + ':' + str(atlas_port) + '/api/atlas/admin/status'
     auth = (atlas_user,atlas_pw)
     r = requests.get(url,auth=auth)
-    return r.content
+    if r.status_code == 200:
+        return r.content
+    else:
+        return '[ ERROR ] Status Code: ' + str(r.status_code) + ' --- ' + r.content
 
 get_atlas_status('localhost','21000','admin','admin')
 
@@ -19,10 +22,13 @@ def atlas_search(atlas_host, atlas_port, atlas_user, atlas_pw, query):
     url  = 'http://' + str(atlas_host) + ':' + str(atlas_port) + '/api/atlas/discovery/search?query=' + str(query)
     auth = (atlas_user,atlas_pw)
     r = requests.get(url,auth=auth)
-    return r.content
+    if r.status_code == 200:
+        return r.content
+    else:
+        return '[ ERROR ] Status Code: ' + str(r.status_code) + ' --- ' + r.content
 
-atlas_search('localhost','21000','admin','admin','customer')
-
+assets = json.loads(atlas_search('localhost','21000','admin','admin','*table1'))
+list_assets = [asset for asset in assets['results']]
 
 
 
@@ -64,4 +70,3 @@ atlas_search('localhost','21000','admin','admin','customer')
 
 
 #ZEND
-
