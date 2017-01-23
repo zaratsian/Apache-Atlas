@@ -1,4 +1,4 @@
-<H3><a href="http://atlas.incubator.apache.org/">Apache Atlas</a></H3>
+<H3><a href="http://atlas.incubator.apache.org/">Apache Atlas</a></H3> Governance, Lineage, and Metadata for Hadoop
 
 <br><b>To run within <a href="http://hortonworks.com/downloads/#sandbox">Hortonworks Sandbox</a>:</b>
 <br>&ensp;&ensp;1.) Increase VM to 10.5 GB of RAM
