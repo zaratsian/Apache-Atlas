@@ -8,13 +8,14 @@
 <br>&ensp;&ensp;5.) Restart / Start - Ambari Infra, Ranger Tagsync, Hive, HBase, Atlas, Sqoop, Storm, Kafka
 <br>&ensp;&ensp;6.) Turn on Maintenance Mode
 <br>
+<br><b>Quickstart:</b>
+<br>```su atlas -c '/usr/hdp/current/atlas-server/bin/quick_start.py'```
+<br>
 <br><b>Kafka - Entities Topic</b>
 <br>```/usr/hdp/current/kafka-broker/bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic ATLAS_ENTITIES --from-beginning```
 <br>Other topic: ATLAS_HOOK
 <br>user=atlas
 <br>
-<br><b>Quickstart:</b>
-<br>```su atlas -c '/usr/hdp/current/atlas-server/bin/quick_start.py'```
 <br>
 <br><b>References:</b>
 <br><a href="http://atlas.incubator.apache.org/">Apache Atlas</a>
