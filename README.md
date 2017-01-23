@@ -8,6 +8,8 @@
 <br>&ensp;&ensp;5.) Restart / Start - Ambari Infra, Ranger Tagsync, Hive, HBase, Atlas, Sqoop, Storm, Kafka
 <br>&ensp;&ensp;6.) Turn on Maintenance Mode
 <br>
+<br><b>Quickstart:</b>
+<br>```su atlas -c '/usr/hdp/current/atlas-server/bin/quick_start.py'```
 <br>
 <br><b>References:</b>
 <br><a href="http://atlas.incubator.apache.org/">Apache Atlas</a>
