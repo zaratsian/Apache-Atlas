@@ -1,5 +1,6 @@
-<H3><a href="http://atlas.incubator.apache.org/">Apache Atlas</a></H3> Governance, Lineage, and Metadata for Hadoop
-
+<H3><a href="http://atlas.incubator.apache.org/">Apache Atlas</a></H3> 
+Apache Atlas provides scalable governance for Enterprise Hadoop that is driven by metadata. Apache Atlas empowers enterprises to effectively and efficiently address their compliance requirements through a scalable set of core governance services. These services including <b>Data Lineage</b>, <b>REST APIs</b>, <b>Metadata Exchange</b>, <b>Business Taxonomies</b>.     
+<br>
 <br><b>To run within <a href="http://hortonworks.com/downloads/#sandbox">Hortonworks Sandbox</a>:</b>
 <br>&ensp;&ensp;1.) Increase VM to 10.5 GB of RAM
 <br>&ensp;&ensp;2.) Stop Flume, Oozie, Zeppelin
